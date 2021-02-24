@@ -13,6 +13,9 @@ public abstract class Main implements Printable {
         Shape shape1 = new Circle(5);
         System.out.println("Added new Shape (Circle)");
 
+        System.out.println("Enter login and password:");
+
+
 
         ShapeList<Rectangle> shapes = new ShapeList<>();
         //shapes.addShape(new Rectangle());
