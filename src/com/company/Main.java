@@ -10,7 +10,8 @@ public abstract class Main implements Printable {
         Printable ppp = (p) -> System.out.println(p);
         ppp.print("Hi");
 
-
+        Shape shape1 = new Circle(5);
+        System.out.println("Added new Shape (Circle)");
 
 
         ShapeList<Rectangle> shapes = new ShapeList<>();
